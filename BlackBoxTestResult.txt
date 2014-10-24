@@ -1,6 +1,6 @@
 Test Case 1
 Inputs: 0 100
-Expected output: Fail
+Expected output: Component Fail
 Actual output: Component Fail
 
 Test Case 2
