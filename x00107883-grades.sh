@@ -1,8 +1,8 @@
 #!/bin/bash
 echo Test Case 1
-	echo  Inputs:  0 100
+	echo  Inputs:  40 50
 	echo  Expected output: "Fail"
-	AO=$(java grades 0 100)
+	AO=$(java grades 40 50)
 	echo Actual output: $AO
 echo
 echo Test Case 2
