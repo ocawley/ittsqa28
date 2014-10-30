@@ -1,7 +1,7 @@
 Test Case 1
-Inputs: 0 100
-Expected output: Component Fail
-Actual output: Component Fail
+Inputs: 40 50
+Expected output: Fail
+Actual output: Fail
 
 Test Case 2
 Inputs: -2 50
