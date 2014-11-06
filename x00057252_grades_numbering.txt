@@ -1,0 +1,30 @@
+/**
+ * @author ocawley
+ */
+
+public class grades
+{
+	public static void main(String[] args) {
+/*01*/		String grade = new String();
+/*01*/		int exam, ca;
+
+/*02*/		exam = Integer.parseInt(args[0]);
+/*03*/		ca = Integer.parseInt(args[1]);
+
+/*04*/		if (exam < 0 || exam > 100 || ca < 0 || ca > 100) {
+/*05*/			grade = "Invalid input";
+/*06*/		} else if (exam < 40 || ca < 40) {
+/*07*/			grade = "Component Fail";
+/*08*/		} else {
+/*08*/			int combined = (60 * exam + 40 * ca) / 100;
+/*09*/			if (combined < 60) {
+/*10*/				grade = "Fail";
+/*11*/			} else if (combined >= 60 && combined <= 80) {
+/*12*/				grade = "Pass";
+/*13*/			} else if (combined > 80 && combined <= 100) {
+/*14*/				grade = "Pass with distinction";
+			}
+		}
+/*15*/		System.out.println(grade);
+/*15*/	}
+}
