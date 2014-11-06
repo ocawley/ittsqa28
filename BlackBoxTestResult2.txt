@@ -26,5 +26,5 @@ Actual output: Component Fail
 Test Case 6
 Inputs: 50 50
 Expected output: Pass
-Actual output: Fail
+Actual output: Pass
 
