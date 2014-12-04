@@ -1,0 +1,30 @@
+Test Case 1
+Inputs: 40 50
+Expected output: Fail
+Actual output: Fail
+
+Test Case 2
+Inputs: -2 50
+Expected output: Invalid input
+Actual output: Invalid input
+
+Test Case 3
+Inputs: 40 102
+Expected output: Invalid input
+Actual output: Invalid input
+
+Test Case 4
+Inputs: 39 100
+Expected output: Component Fail
+Actual output: Component Fail
+
+Test Case 5
+Inputs: 90 39
+Expected output: Component Fail
+Actual output: Component Fail
+
+Test Case 6
+Inputs: 50 50
+Expected output: Pass
+Actual output: Pass
+
